@@ -1,4 +1,4 @@
-<h1>Encurtador de URL</h1>
+# Encurtador de URL
 
 API desenvolvida para receber endereços eletrônicos gigantes e devolver endereços encurtados.
 Esta API foi desenvolvida em Typescript e utiliza o banco de dados MongoDB.
