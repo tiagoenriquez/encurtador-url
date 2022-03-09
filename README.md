@@ -10,9 +10,9 @@ Usa as seguintes bibliotecas:
   * Short Id: gera endereço encurtado aleatório
   * Typegoose (@typegoose/typegoose): permite a utilização do Mongoose em Typescript<br>
 
-<hr>
+## Endpoints:
 
-Este sistema tem dois endpoints:
+<hr>
 
 1
   * path: /encurtar
@@ -24,6 +24,8 @@ Este sistema tem dois endpoints:
     * não pode haver duas referências à mesma URL original
     * não pode haver duas URL originais com o mesmo apelido
   * descrição: O cliente informa a URL original e talvez o apelido. Se informar o apelido, este ser persistido no banco e vai ser acrescentado à URL desta API, que também vai ser salvo no banco. Se não for informado, o sistema se encarregará de sortear um hash pequeno, que será persistido em banco e será acrescentado à URL desta API, gerando um URL que também será salva.
+
+  <hr>
 
 2
   * path: /:extensão
