@@ -11,7 +11,6 @@ Usa as seguintes bibliotecas:
   * Typegoose (@typegoose/typegoose): permite a utilização do Mongoose em Typescript<br>
 
 ## Endpoints:
-<hr>
 
 1
   * path: /encurtar
